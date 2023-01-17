@@ -1,0 +1,35 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabs{
+    display: flex;
+    list-style: none;
+
+}
+.tabs li {
+    padding: 10px;
+    background-color: #f6f6f4;
+    border-right: 1px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tabs .active,
+.tabs:hover {
+background-color: #EEE;
+
+
+}
+.content {
+    background-color: #EEE;
+
+
+}
+ .content > div {
+    padding: 20px;
+ }
+
+.content > div:not(:first-child) {
+    display: none;
+
+    }
